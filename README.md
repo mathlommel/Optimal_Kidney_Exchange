@@ -26,7 +26,7 @@ L'objectif de cette partie est de développer des méthodes d'optimisation perme
 
 Plusieurs méthodes de résolution seront proposées :
 - *Programmes linéaires* en nombre entiers : 3 PLNE permettant de trouver les cycles optimaux dans 3 cas distincts (taille des cycles non contraint, taille des cycles $\le$ $k$, et tailles des cycles $=$ $2$).
-- Un algorithme de *génération de colonne* : résolution itérative du problème évitant de dénombrer tous les cycles possibles (les détails de la méthode sont donnés dans le notebook principal).
+- Un algorithme de *génération de colonne* : résolution itérative du problème évitant de dénombrer tous les cycles possibles (les détails de la méthode sont donnés dans le [notebook principal](https://github.com/mathlommel/Optimal_Kidney_Exchange/blob/main/Projet_OSI_THOMAS_LOMMEL.ipynb)).
 
 Ces méthodes seront soumises à des tests, permettant de nous conforter quant à leur fonctionnement et de comparer leur efficacité. Une dernière partie sera dédiée à une partie *éthique*, dans laquelle nous remettons en question les modèles construits, et comparons de manière qualitative les cycles rendus, ainsi que la variabilité de ce résultat en fonction des choix en entrée.
 
@@ -44,7 +44,7 @@ La suite du projet consistera à coder plusieurs approches d'optimisation sous i
 - Un programme linéaire pour les cycles de dons de taille $2$
 - Un programme linéaire pour les cycles de dons de taille $3$
 
-Chacune de ces formulation se basera sur un ensemble de scénarios de compatibilité possibles. Le détail de ces méthodes est lui aussi décrit dans le notebook principal.
+Chacune de ces formulation se basera sur un ensemble de scénarios de compatibilité possibles. Le détail de ces méthodes est lui aussi décrit dans le [notebook principal](https://github.com/mathlommel/Optimal_Kidney_Exchange/blob/main/Projet_OSI_THOMAS_LOMMEL.ipynb).
 
 Tout comme la partie déterministe, cette seconde partie sera aussi sujette à des tests : vérification des propriétés théoriques, comparaison des performances, comparaison avec le cas déterministe, et analyse des choix de modélisation.
 
