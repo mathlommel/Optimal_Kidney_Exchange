@@ -22,13 +22,13 @@ Les données utilisées pour ce projet proviennent des jeux de données de la [P
 
 Dans cette première approche, nous allons considérer connaître la compatibilité réelle entre deux individus. A cet effet, nous utiliserons les fichiers .wmd de la PrefLib, décrivant un graphe de compatibilité orienté, $G=(V , A)$ , où chaque sommet de $V$ représente une paire donneur-malade et où un arc entre deux paires $( P_k , D_k )$ et $( P_l , D_l )$ signifie que $D_k$ est compatible avec $P_l$. La compatibilité est obtenue à partir des données biologiques individuelles (e.g., les groupes sanguins) et d'un test croisé lors duquel des biologistes mettent en présence des tissus d'un malade et d'un donneur supposé.
 
-L'objectif de cette partie est de développer des méthodes d'optimisation permettant de trouver les meilleurs cycles de dons possibles. Ici, "meilleurs" signifie que nous chercherons un ensemble de cycles maximisant le nombre total de transplantation total. 
+L'objectif de cette partie est de développer des méthodes d'optimisation permettant de trouver les meilleurs cycles de dons possibles. Ici, "meilleurs" signifie que nous chercherons un ensemble de cycles maximisant le nombre total de transplantations. 
 
 Plusieurs méthodes de résolution seront proposées :
-- *Programmes linéaires* en nombre entiers : 3 PLNE permettant de trouver les cycles optimaux dans 3 cas distincts (taille des cycles non contraint, taille des cycles $\le$ $k$, et tailles des cycles $=$ $2$).
-- Un algorithme de *génération de colonne* : résolution itérative du problème évitant de dénombrer tous les cycles possibles (les détails de la méthode sont donnés dans le [notebook principal](https://github.com/mathlommel/Optimal_Kidney_Exchange/blob/main/Projet_OSI_THOMAS_LOMMEL.ipynb)).
+- **Programmes linéaires en nombre entiers** : 3 PLNE permettant de trouver les cycles optimaux dans 3 cas distincts (taille des cycles non contraint, taille des cycles $\le$ $k$, et tailles des cycles $=$ $2$).
+- **Un algorithme de génération de colonne** : résolution itérative du problème évitant de dénombrer tous les cycles possibles (les détails de la méthode sont donnés dans le [notebook principal](https://github.com/mathlommel/Optimal_Kidney_Exchange/blob/main/Projet_OSI_THOMAS_LOMMEL.ipynb)).
 
-Ces méthodes seront soumises à des tests, permettant de nous conforter quant à leur fonctionnement et de comparer leur efficacité. Une dernière partie sera dédiée à une partie *éthique*, dans laquelle nous remettons en question les modèles construits, et comparons de manière qualitative les cycles rendus, ainsi que la variabilité de ce résultat en fonction des choix en entrée.
+Ces méthodes seront soumises à des tests, permettant de nous conforter quant à leur fonctionnement et de comparer leur efficacité. Une dernière partie sera dédiée à une analyse *éthique*, dans laquelle nous remettons en question les modèles construits, et comparons de manière qualitative les cycles rendus, ainsi que la variabilité des résultats en fonction des choix en entrée.
 
 ## 4 - Approche avec Incertitudes
 
