@@ -49,16 +49,18 @@ Chacune de ces formulation se basera sur un ensemble de scénarios de compatibil
 Tout comme la partie déterministe, cette seconde partie sera aussi sujette à des tests : vérification des propriétés théoriques, comparaison des performances, comparaison avec le cas déterministe, et analyse des choix de modélisation.
 
 ## 5 - Structure du code
-- RENDU N°1 : PARTIE DETERMINISTE
 
 Le code principal est placé dans le notebook intitulé "Projet_OSI_THOMAS_LOMMEL". Dans celui-ci, se trouve le squelette du notebook initial du projet, complété par les codes et les explications nécessaires.
 
 Toutes les parties du projet sont ensuite segmentées : 
 - Pour la partie déterministe : "Formulations_compactes", "Generation_de_colonnes" et "Tests"
 - Pour la partie avec incertitudes : "Formulations_avec_incertitudes"
+
 Les codes et fonctions construites dans ces notebooks sont importées dans le notebook principal, au moment opportun.
 
-Les instances de tests sont elles placées dans le dossier "Data_KEP". Aussi, pour faciliter l'explication, certaines images sont présentes, et affichées dans le notebook : celles-ci sont présentes dans le dossier "Images".
+Les instances de tests sont elles placées dans le dossier "Data_KEP". 
+
+Aussi, pour faciliter l'explication, certaines images sont présentes, et affichées dans le notebook : celles-ci ont été placées dans le dossier "Images".
 
 Toutes les sorties du notebook principal ont été gardées, et devraient normalement être visibles. Dans le  cas où ce ne serait pas le cas, une version .pdf est aussi présente. Attention toutefois : dans la version pdf, les images importées ne sont pas présentes, et certaines formules  LaTeX n'ont pas été affichées correctement.
 
